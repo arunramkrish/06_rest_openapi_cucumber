@@ -1,0 +1,21 @@
+== Description
+
+Sample test project to demonstrate API testing with Java, Cucumber and OpenAPI
+
+== Installation Instructions
+
+Prerequisites:
+
+* Java 1.8
+
+* Maven > 3.3.9
+
+Compile with Maven:
+
+run from project root: `mvn clean compile`
+
+Run tests:
+
+run `mvn test`
+
+Recommendation: If using IntelliJ to run tests, mark generated-sources/api/src/gen/java directory as Sources Root
